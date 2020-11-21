@@ -5,7 +5,8 @@ from chef import Chef
 
 
 app = Flask(__name__)
-
+manager = Chef()
+manager.load_conf()
 
 @app.route("/lunch", methods=["GET"])
 def select_lunch():
@@ -23,8 +24,5 @@ def select_lunch():
 
 
 if __name__ == '__main__':
-    global manager
-    manager = Chef()
-    manager.load_conf()
     app.run(host='0.0.0.0', port=8080)
 
