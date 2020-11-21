@@ -14,7 +14,7 @@ Ukufu assignment for coding
     
 
   -  *enhancement* 
-      consider planning for lunch for future date then. Jan 07th 2020. yyyy-mm-dd
+      consider planning for lunch for future date then. Jan 07th 2021. yyyy-mm-dd
   -     curl -X GET http://0.0.0.0:8080/lunch?date=2021-01-07
 
 ### Contact
