@@ -22,6 +22,7 @@ smart.ram856@gmail.com for any Python dev projects.
 
 ### Installation
  - git clone git@github.com:smartram/venkat-edara-tech-task-21-11.git
+ - cd venkat-edara-tech-task-21-11
  - docker build -t edara_venkata_ukufu_techtask .
  - docker run -p 8080:8080 edara_venkata_ukufu_techtask
 
